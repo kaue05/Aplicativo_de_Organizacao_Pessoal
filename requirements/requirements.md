@@ -40,13 +40,6 @@
 4. Se os dados forem válidos, o sistema exibe uma mensagem de confirmação de alteração.
 5. O sistema altera os campos no banco de dados.
 
-
-1. O usuário acessa a página de cadastro.
-2. O usuário insere o e-mail e senha nos campos correspondentes.
-3. O sistema valida o e-mail e a senha.
-4. Se os dados forem válidos, o sistema envia um e-mail de confirmação para o endereço informado.
-5. O usuário deve confirmar o e-mail clicando no link recebido.
-6. O sistema ativa a conta e permite o login.
 ---
 
 ## Requisito Funcional 3: Cadastro de Tarefas
@@ -61,6 +54,12 @@
 - O sistema deve associar a tarefa ao usuário autenticado.
 - O sistema deve permitir associar a tarefa a um grupo (opcional).
 
+### Fluxo de Funcionamento:
+1. O usuário acessa a página "Cadastrar Tarefa".
+2. O usuário preenche os campos da tarefa.
+3. Se os dados forem válidos, o sistema salva a tarefa.
+4. O sistema deixa o atalho na página principal.
+
 ---
 
 ## Requisito Funcional 4: Alteração de Tarefas
@@ -72,6 +71,12 @@
 - O sistema deve permitir alterar o título, descrição, data, hora, som da notificação e grupo da tarefa.
 - O sistema deve registrar a data da última modificação da tarefa.
 - O sistema deve informar ao usuário quando a tarefa for alterada com sucesso.
+
+### Fluxo de Funcionamento:
+1. O usuário acessa a tarefa que deseja alterar.
+2. O usuário altera os campos da tarefa.
+3. Se os dados forem válidos, o sistema salva a tarefa.
+4. O sistema deixa o atalho na página principal.
 
 ---
 
@@ -86,6 +91,12 @@
 - O sistema deve atualizar os dados de pontuação do usuário, se aplicável.
 - O sistema deve informar que a exclusão foi realizada com sucesso.
 
+### Fluxo de Funcionamento:
+1. O usuário acessa a tarefa que deseja excluir.
+2. O sistema pede a confirmação de exclusão da tarefa.
+3. O usuário confirma a exclusão.
+4. O sistema exclui a tarefa na base de dados.
+
 ---
 
 ## Requisito Funcional 6: Marcação de Tarefas Concluídas
@@ -98,6 +109,11 @@
 - O sistema deve registrar a data e hora da conclusão.
 - O sistema deve atualizar a pontuação do usuário.
 - O sistema deve permitir que a tarefa seja desmarcada, se necessário.
+
+### Fluxo de Funcionamento:
+1. O usuário marca a tarefa como concluída.
+2. O sistema altera o estado da tarefa como concluída.
+3. O sistema envia o atalho da tarefa para o fim da página principal.
 
 ---
 
@@ -112,6 +128,11 @@
 - O sistema deve informar quando o grupo for criado com sucesso.
 - O sistema deve permitir alterar ou excluir grupos posteriormente.
 
+### Fluxo de Funcionamento:
+1. O usuário acessa a página de "Cadastro de Grupo" ou "Cadastro de Tarefa".
+2. O usuário preenche os campos do cadastro do grupo.
+3. Se os dados forem válidos, o sistema adiciona o grupo na página principal como uma guia.
+
 ---
 
 ## Requisito Funcional 8: Pontuação sobre Tarefas
@@ -124,6 +145,12 @@
 - O sistema deve exibir a pontuação total atual do usuário.
 - O sistema deve permitir que o usuário visualize um histórico de pontuação (opcional).
 - O sistema deve recalcular a pontuação em caso de alterações nas tarefas.
+
+
+### Fluxo de Funcionamento:
+1. O usuário ao concluir uma tarefa marca a mesma como concluída.
+2. O sistema armazena a pontuação do usuário, de acordo com o nível de urgência escolhido.
+3. Se o usuário desmarcar como tarefa concluída, o sistema desconta a pontuação aplicada.
 
 ---
 
@@ -138,6 +165,12 @@
 - O sistema deve calcular a taxa de conclusão de tarefas do usuário.
 - O sistema deve atualizar o relatório em tempo real conforme as tarefas são modificadas.
 
+### Fluxo de Funcionamento:
+1. O usuário acessa a página "Relatórios".
+2. O sistema mostra o relatório de desempenho do usuário no período do mês corrente.
+3. O usuário seleciona o período de tempo que deseja verificar.
+4. O sistema apresenta a seleção do usuário.
+
 ---
 
 ## Requisito Funcional 10: Segurança de Informações
@@ -150,5 +183,8 @@
 - O acesso aos dados deve ser restrito ao usuário autenticado.
 - As regras de segurança do banco de dados devem impedir acesso indevido.
 - As requisições devem ser feitas por HTTPS para proteger os dados em trânsito.
+
+### Fluxo de Funcionamento:
+1. O sistema precisa manter a integridade e segurança de todas informações dos usuários.
 
 -------
