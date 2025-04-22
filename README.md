@@ -8,3 +8,7 @@ Este projeto está sendo construído pelos alunos do curso de Tecnologia em Aná
 
 - **IGOR VINÍCIUS RODRIGUES DE SOUZA**
 - **KAUE OLIVEIRA DOS SANTOS**
+
+### Que aplicativo é esse?🤔
+
+Em geral, esse aplicativo funciona como um auxiliador na organização e anotações de tarefas do dia a dia, para o público em geral, mas também com recursos que foram pensados para pessoas com Transtorno de Déficit de Atenção com Hiperatividade (TDAH).
