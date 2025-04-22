@@ -28,6 +28,7 @@
 
 - Gosta de criar listas de tarefas e ter lembretes para não se esquecer de prazos importantes.
 
+---
 
 ## 2. Rafael, o Profissional de Tecnologia da Informação
 

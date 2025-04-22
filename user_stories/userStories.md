@@ -14,6 +14,7 @@
 
 ### Prioridade: Alta
 
+---
 
 ## 2. Para Profissionais Home Office
 
@@ -29,6 +30,8 @@
 
 ### Prioridade: Alta
 
+---
+
 ## 3. Para Evitar Distrações
 
 **Como um Usuário Procrastinador, eu quero bloquear notificações de aplicativos durante o tempo que eu definir como "modo foco", para que eu consiga evitar distrações enquanto estou concentrado em uma tarefa importante.**
@@ -43,6 +46,8 @@
 
 ### Prioridade: Alta
 
+---
+
 ## 4. Para Gerenciar Tarefas de Longo Prazo
 
 **Como Profissional, eu quero ter uma visão semanal das minhas tarefas e prazos, para que eu consiga planejar melhor minha semana e evitar deixar tarefas para última hora.**
@@ -56,6 +61,8 @@
 - [ ] O usuário deve poder visualizar tarefas de diferentes categorias (ex.: trabalho, pessoal, estudo).
 
 ### Prioridade: Média
+
+---
 
 ## 5. Para Feedback de Progresso motivador
 
